@@ -37,7 +37,7 @@ public class SaveLoad<T> {
 
         try {
 
-            FileInputStream fileIn = new FileInputStream("myFile.txt");
+            FileInputStream fileIn = new FileInputStream("studentReport.txt");
             ObjectInputStream objectIn = new ObjectInputStream(fileIn);
 
             Object list = objectIn.readObject();
