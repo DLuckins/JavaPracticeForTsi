@@ -13,11 +13,11 @@ public class StudentList implements Serializable {
     public void add(){
             Student student=new Student();
             System.out.println("Please add student info");
-            System.out.println("name:");
+            System.out.println("Name:");
             student.setName(Main.input.nextLine());
             System.out.println("ID:");
             student.setStudentID(Main.input.nextLine());
-            System.out.println("email:");
+            System.out.println("Email:");
             student.setEmail(Main.input.nextLine());
             System.out.println("Date of birth:");
             try {
